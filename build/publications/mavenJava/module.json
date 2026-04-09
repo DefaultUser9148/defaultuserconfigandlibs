@@ -3,7 +3,7 @@
   "component": {
     "group": "net.defaultuserconfigandlibs",
     "module": "defaultuserconfigandlibs",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -25,13 +25,13 @@
       },
       "files": [
         {
-          "name": "defaultuserconfigandlibs-0.0.5.jar",
-          "url": "defaultuserconfigandlibs-0.0.5.jar",
-          "size": 243319,
-          "sha512": "164f9ff4af24a22e89a46e95359fe97bcf690a26760b6ac31533ba856989907a5cc8e0a675551ad2751c171011b2b25f3c6a4502390e5e549733aef64af96942",
-          "sha256": "27478bc48f096df52f0393d7289440520e6982bd104900197386eae1cfd794fd",
-          "sha1": "83ff2b3c4aeade6e3b80447006be0bd1cddad4ef",
-          "md5": "51bf45391214c394c362994beb8f4aff"
+          "name": "defaultuserconfigandlibs-0.0.6.jar",
+          "url": "defaultuserconfigandlibs-0.0.6.jar",
+          "size": 243585,
+          "sha512": "69d500d459800e6b920d0d2edbb65fc80f8083f353d124fbe9d08b561ab141385e3e35f5a6fca8eadaea8cec2eb977a759bbb5d251ab35403b092116457c4bb4",
+          "sha256": "e6cdae6b2c6fb40d362845dcf6b0c541ee1e523598deac0355c4b63830548867",
+          "sha1": "dedb5bff8de0e6f8ae2a6aeb7d14cd35a5824b67",
+          "md5": "45e67304d115b470e70f00005dd83ab2"
         }
       ]
     },
@@ -62,13 +62,13 @@
       ],
       "files": [
         {
-          "name": "defaultuserconfigandlibs-0.0.5.jar",
-          "url": "defaultuserconfigandlibs-0.0.5.jar",
-          "size": 243319,
-          "sha512": "164f9ff4af24a22e89a46e95359fe97bcf690a26760b6ac31533ba856989907a5cc8e0a675551ad2751c171011b2b25f3c6a4502390e5e549733aef64af96942",
-          "sha256": "27478bc48f096df52f0393d7289440520e6982bd104900197386eae1cfd794fd",
-          "sha1": "83ff2b3c4aeade6e3b80447006be0bd1cddad4ef",
-          "md5": "51bf45391214c394c362994beb8f4aff"
+          "name": "defaultuserconfigandlibs-0.0.6.jar",
+          "url": "defaultuserconfigandlibs-0.0.6.jar",
+          "size": 243585,
+          "sha512": "69d500d459800e6b920d0d2edbb65fc80f8083f353d124fbe9d08b561ab141385e3e35f5a6fca8eadaea8cec2eb977a759bbb5d251ab35403b092116457c4bb4",
+          "sha256": "e6cdae6b2c6fb40d362845dcf6b0c541ee1e523598deac0355c4b63830548867",
+          "sha1": "dedb5bff8de0e6f8ae2a6aeb7d14cd35a5824b67",
+          "md5": "45e67304d115b470e70f00005dd83ab2"
         }
       ]
     },
@@ -82,13 +82,13 @@
       },
       "files": [
         {
-          "name": "defaultuserconfigandlibs-0.0.5-sources.jar",
-          "url": "defaultuserconfigandlibs-0.0.5-sources.jar",
-          "size": 236064,
-          "sha512": "fc0c380b31291865e64d5900052e0eed0c28067ed5a203f8bc88e5989a2ea64b23fe1e0c768c45c3de8dfdf4f48987142f8a3e85c6ec53671b3de5941ec53a51",
-          "sha256": "3f89ef935082dd5c50f20ee4ffebe952b7f678c90e24352e4d6590b6b0f7ff8d",
-          "sha1": "c3dbe3f87a1f8cfca8887a7ca716ca66191f8278",
-          "md5": "d91dc8af0cefa5d09558566bd5edfcf3"
+          "name": "defaultuserconfigandlibs-0.0.6-sources.jar",
+          "url": "defaultuserconfigandlibs-0.0.6-sources.jar",
+          "size": 236172,
+          "sha512": "1359da059a091234efcda4ea6e9de99d7e5ac591efb2f9f489d4a2045452f977ac5b3ccb03a5b106eaf9f52cc2d46bdc396d02a46289f18e242b00b61482cd4f",
+          "sha256": "2b7fd7207b0da64ca9d3a2d3a0a73a5bc816bf861981e5451deb4cfcb58dc8f6",
+          "sha1": "2dbc9138dad880fd37e4fe0cddf72bfde1cda391",
+          "md5": "421126f31eae40458cfcf4eae2478def"
         }
       ]
     }

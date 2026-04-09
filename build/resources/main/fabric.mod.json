@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "defaultuserconfigandlibs",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "name": "DefaultUserConfigAndLibs",
   "description": "Most often required for my mods. Gives icon buttons, link buttons, configs, host os detection, date and time, fabric and minecraft version detection, etc...",
   "authors": ["DefaultUser9148"],

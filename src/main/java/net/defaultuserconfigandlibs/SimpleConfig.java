@@ -1,5 +1,8 @@
 package net.defaultuserconfigandlibs;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.io.IOException;
 import java.io.Reader;
 import java.io.Writer;
@@ -24,6 +27,8 @@ import java.util.Properties;
  * </pre>
  */
 public class SimpleConfig {
+
+    private static final Logger LOGGER = LoggerFactory.getLogger(SimpleConfig.class);
 
     private final Path filePath;
     /** Insertion-ordered to keep consistent display/save order. */
@@ -72,7 +77,8 @@ public class SimpleConfig {
     /** Writes current values to disk. */
     public void save() {
         try {
-            Files.createDirectories(filePath.getParent());
+            Path parent = filePath.getParent();
+            if (parent != null) Files.createDirectories(parent);
             Properties props = new Properties();
             for (Map.Entry<String, Boolean> e : values.entrySet()) {
                 props.setProperty(e.getKey(), String.valueOf(e.getValue()));
@@ -80,6 +86,8 @@ public class SimpleConfig {
             try (Writer w = Files.newBufferedWriter(filePath)) {
                 props.store(w, "WorldVersionBackport config");
             }
-        } catch (IOException ignored) {}
+        } catch (IOException e) {
+            LOGGER.warn("SimpleConfig: failed to save config to {}: {}", filePath, e.getMessage());
+        }
     }
 }
