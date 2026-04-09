@@ -1,0 +1,2 @@
+v1	named	intermediary
+FIELD	net/defaultuserconfigandlibs/mixin/SelectWorldScreenButtonMixin	Lnet/minecraft/client/gui/widget/ButtonWidget;	selectButton	field_3224

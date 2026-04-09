@@ -51,7 +51,7 @@ public class ConfirmActionScreen extends Screen {
 
     @Override
     public void render(DrawContext context, int mouseX, int mouseY, float delta) {
-        renderBackground(context, mouseX, mouseY, delta);
+        super.render(context, mouseX, mouseY, delta);
 
         // Title
         context.drawCenteredTextWithShadow(textRenderer, title, width / 2, height / 2 - (bodyLines.size() * 10) - 20, 0xFF5555);
@@ -62,8 +62,6 @@ public class ConfirmActionScreen extends Screen {
             context.drawCenteredTextWithShadow(textRenderer, Text.literal(line), width / 2, y, 0xFFFFFF);
             y += 12;
         }
-
-        super.render(context, mouseX, mouseY, delta);
     }
 
     @Override

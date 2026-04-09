@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "net/defaultuserconfigandlibs/mixin/SelectWorldScreenButtonMixin": {
+      "init": "Lnet/minecraft/class_526;method_25426()V",
+      "worldSelected": "Lnet/minecraft/class_526;method_19940(Lnet/minecraft/class_34;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "net/defaultuserconfigandlibs/mixin/SelectWorldScreenButtonMixin": {
+        "init": "Lnet/minecraft/class_526;method_25426()V",
+        "worldSelected": "Lnet/minecraft/class_526;method_19940(Lnet/minecraft/class_34;)V"
+      }
+    }
+  }
+}
