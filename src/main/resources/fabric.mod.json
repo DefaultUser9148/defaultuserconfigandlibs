@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "defaultuserconfigandlibs",
+  "version": "${version}",
+  "name": "DefaultUserConfigAndLibs",
+  "description": "Most often required for my mods. Gives icon buttons, link buttons, configs, host os detection, date and time, fabric and minecraft version detection, etc...",
+  "authors": ["DefaultUser9148"],
+  "contact": {
+    "sources": "https://github.com/DefaultUser9148/defaultuserconfigandlibs"
+  },
+  "license": "Apache-2.0",
+  "icon": "assets/defaultuserconfigandlibs/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": ["net.defaultuserconfigandlibs.DefaultUserConfigAndLibs"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21.4",
+    "java": ">=21"
+  }
+}
